@@ -99,6 +99,12 @@ jobs:
               use-cross: true,
             }
           - {
+              target: aarch64-unknown-linux-musl,
+              arch: arm64,
+              os: ubuntu-20.04,
+              use-cross: true,
+            }
+          - {
               target: arm-unknown-linux-gnueabi,
               arch: armel,
               os: ubuntu-20.04,
